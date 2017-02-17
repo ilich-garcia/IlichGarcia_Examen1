@@ -24,19 +24,19 @@ class Stark {
 	public:
 		Stark(); // Constructor.
 		// Setters.
-		setFamilyBoss(string);
-		setWolfs(int);
-		setEmblem(string);
-		setMotto(string);
-		setNobleFamily(NobleFamily*);
-		setBestWarrior(string);
-		setQuantity(int);
+		void setFamilyBoss(string);
+		void setWolfs(int);
+		void setEmblem(string);
+		void setMotto(string);
+		void setNobleFamily(NobleFamily*);
+		void setBestWarrior(string);
+		void setQuantity(int);
 		// Getters.
       string getFamilyBoss();
       int getWolfs();
       string getEmblem();
       string getMotto();
-      NobleFamily* getNobleFamily();
+      NobleFamily* getNobleFamily(int);
       string getBestWarrior();
       int getQuantity();
 		~Stark(); // Destructor.

@@ -10,27 +10,27 @@ NobleFamily::NobleFamily() {
 
 // Setters.
 
-NobleFamily::setName(string name) {
+void NobleFamily::setName(string name) {
 	this -> name = name;
 }
 
-NobleFamily::setSymbol(string symbol) {
+void NobleFamily::setSymbol(string symbol) {
    this -> symbol = symbol;
 }
 
-NobleFamily::setMotto(string motto) {
+void NobleFamily::setMotto(string motto) {
    this -> motto = motto;
 }
 
-NobleFamily::setPeople(int people) {
+void NobleFamily::setPeople(int people) {
    this -> people = people;
 }
 
-NobleFamily::setAttack(int attack) {
+void NobleFamily::setAttack(int attack) {
    this -> attack = attack;
 }
 
-NobleFamily::setDefense(int defense) {
+void NobleFamily::setDefense(int defense) {
    this -> defense = defense;
 }
 

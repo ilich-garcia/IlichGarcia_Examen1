@@ -1,13 +1,15 @@
 // Lannister
 
+#include "RoyalGuard.h"
+
 #include <iostream>
 #include <vector>
 #include <string>
 
+using namespace std;
+
 # ifndef LANNISTER_H
 # define LANNISTER_H
-
-using namespace std;
 
 class Lannister {
 	private:
@@ -22,13 +24,13 @@ class Lannister {
 	public:
 		Lannister(); // Constructor.
 		// Setters.
-		setFamilyBoss(string);
-      setEmblem(string);
-      setMotto(string);
-      setRoyalGuard(RoyalGuard*);
-      setMoney(double);
-		setForce(int);
-      setQuantity(int);
+		void setFamilyBoss(string);
+      void setEmblem(string);
+      void setMotto(string);
+      void setRoyalGuard(RoyalGuard*);
+      void setMoney(double);
+		void setForce(int);
+      void setQuantity(int);
 		// Getters.
       string getFamilyBoss();
       string getEmblem();

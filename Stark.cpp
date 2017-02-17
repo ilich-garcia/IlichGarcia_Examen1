@@ -10,31 +10,31 @@ Stark::Stark() {
 
 // Setters.
 
-Stark::setFamilyBoss(string familyBoss) {
+void Stark::setFamilyBoss(string familyBoss) {
 	this -> familyBoss = familyBoss;
 }
 
-Stark::setWolfs(int wolfs) {
+void Stark::setWolfs(int wolfs) {
    this -> wolfs = wolfs;
 }
 
-Stark::setEmblem(string emblem) {
+void Stark::setEmblem(string emblem) {
    this -> emblem = emblem;
 }
 
-Stark::setMotto(string motto) {
+void Stark::setMotto(string motto) {
    this -> motto = motto;
 }
 
-Stark::setNobleFamily(NobleFamily* nobleFamilie) {
+void Stark::setNobleFamily(NobleFamily* nobleFamilie) {
    this -> nobleFamilies.push_back(nobleFamilie);
 }
 
-Stark::setBestWarrior(string bestWarrior) {
+void Stark::setBestWarrior(string bestWarrior) {
    this -> bestWarrior = bestWarrior;
 }
 
-Stark::setQuantity(int quantity) {
+void Stark::setQuantity(int quantity) {
    this -> quantity = quantity;
 }
 

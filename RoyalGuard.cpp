@@ -10,23 +10,23 @@ RoyalGuard::RoyalGuard() {
 
 // Setters.
 
-RoyalGuard::setName(string name) {
+void RoyalGuard::setName(string name) {
 	this -> name = name;
 }
 
-RoyalGuard::setAge(int age) {
+void RoyalGuard::setAge(int age) {
    this -> age = age;
 }
 
-RoyalGuard::setSoldier(string soldier) {
+void RoyalGuard::setSoldier(string soldier) {
    this -> soldier = soldier;
 }
 
-RoyalGuard::setAttack(int attack) {
+void RoyalGuard::setAttack(int attack) {
    this -> attack = attack;
 }
 
-RoyalGuard::setDefense(int defense) {
+void RoyalGuard::setDefense(int defense) {
    this -> defense = defense;
 }
 

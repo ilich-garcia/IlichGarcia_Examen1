@@ -3,10 +3,10 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 # ifndef NOBLEFAMILY_H
 # define NOBLEFAMILY_H
-
-using namespace std;
 
 class NobleFamily {
 	private:
@@ -20,12 +20,12 @@ class NobleFamily {
 	public:
 		NobleFamily(); // Constructor.
 		// Setters.
-		setName(string);
-		setSymbol(string);
-		setMotto(string);
-		setPeople(int);
-		setAttack(int);
-		setDefense(int);
+		void setName(string);
+		void setSymbol(string);
+		void setMotto(string);
+		void setPeople(int);
+		void setAttack(int);
+		void setDefense(int);
 		// Getters.
       string getName();
       string getSymbol();

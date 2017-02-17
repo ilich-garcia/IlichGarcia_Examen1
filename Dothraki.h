@@ -18,12 +18,12 @@ class Dothraki {
 	public:
 		Dothraki(); // Constructor.
 		// Setters.
-		setName(string);
-		setChief(string);
-		setHorse(string);
-		setColor(string);
-		setAttack(int);
-		setDefense(int);
+		void setName(string);
+		void setChief(string);
+		void setHorse(string);
+		void setColor(string);
+		void setAttack(int);
+		void setDefense(int);
 		// Getters.
       string getName();
       string getChief();

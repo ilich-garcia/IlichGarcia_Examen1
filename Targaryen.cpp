@@ -10,27 +10,27 @@ Targaryen::Targaryen() {
 
 // Setters.
 
-Targaryen::setQueen(string queen) {
+void Targaryen::setQueen(string queen) {
 	this -> queen = queen;
 }
 
-Targaryen::setEmblem(string emblem) {
+void Targaryen::setEmblem(string emblem) {
    this -> emblem = emblem;
 }
 
-Targaryen::setMotto(string motto) {
+void Targaryen::setMotto(string motto) {
    this -> motto = motto;
 }
 
-Targaryen::setDragons(int dragons) {
+void Targaryen::setDragons(int dragons) {
    this -> dragons = dragons;
 }
 
-Targaryen::setDothrakies(Dothraki* dothraki) {
+void Targaryen::setDothrakies(Dothraki* dothraki) {
    this -> queen = queen;
 }
 
-Targaryen::setBoats(int boats) {
+void Targaryen::setBoats(int boats) {
    this -> boats = boats;
 }
 

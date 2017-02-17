@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 # ifndef ROYALGUARD_H
 # define ROYALGUARD_H
 
@@ -17,11 +19,11 @@ class RoyalGuard {
 	public:
 		RoyalGuard(); // Constructor.
 		// Setters.
-      setName(string);
-      setAge(int);
-      setSoldier(string);
-      setAttack(int);
-      setDefense(int);
+      void setName(string);
+      void setAge(int);
+      void setSoldier(string);
+      void setAttack(int);
+      void setDefense(int);
 		// Getters.
       string getName();
       int getAge();

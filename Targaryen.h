@@ -1,13 +1,15 @@
 // Targaryen.
 
+#include "Dothraki.h"
+
 #include <iostream>
 #include <vector>
 #include <string>
 
+using namespace std;
+
 # ifndef TARGARYEN_H
 # define TARGARYEN_H
-
-using namespace std;
 
 class Targaryen {
 	private:
@@ -21,12 +23,12 @@ class Targaryen {
 	public:
 		Targaryen(); // Constructor.
 		// Setters.
-		setQueen(string);
-		setEmblem(string);
-		setMotto(string);
-		setDragons(int);
-		setDothrakies(Dothraki*);
-		setBoats(int);
+		void setQueen(string);
+		void setEmblem(string);
+		void setMotto(string);
+		void setDragons(int);
+		void setDothrakies(Dothraki*);
+		void setBoats(int);
 		// Getters.
       string getQueen();
       string getEmblem();

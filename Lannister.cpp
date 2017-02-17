@@ -8,27 +8,27 @@ Lannister::Lannister() {
 
 // Setters.
 
-Lannister::setFamilyBoss(string familyBoss) {
+void Lannister::setFamilyBoss(string familyBoss) {
 	this -> familyBoss = familyBoss;
 }
 
-Lannister::setEmblem(string emblem) {
+void Lannister::setEmblem(string emblem) {
    this -> emblem = emblem;
 }
 
-Lannister::setMotto(string motto) {
+void Lannister::setMotto(string motto) {
    this -> motto = motto;
 }
 
-Lannister::setRoyalGuard(RoyalGuard* royalguard) {
+void Lannister::setRoyalGuard(RoyalGuard* royalguard) {
    this -> royalguards.push_back(royalguard);
 }
 
-Lannister::setForce(int force) {
+void Lannister::setForce(int force) {
    this -> force = force;
 }
 
-Lannister::setQuantity(int quantity) {
+void Lannister::setQuantity(int quantity) {
    this -> quantity = quantity;
 }
 
