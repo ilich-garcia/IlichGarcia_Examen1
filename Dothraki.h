@@ -6,6 +6,8 @@
 # ifndef DOTHRAKI_H
 # define DOTHRAKI_H
 
+using namespace std;
+
 class Dothraki {
 	private:
 		string name;

@@ -52,8 +52,8 @@ int Targaryen::getDragons() {
    return dragons;
 }
 
-Dothraki* Targaryen::getDothrakies() {
-   return queen;
+Dothraki* Targaryen::getDothrakies(int position) {
+   return dothrakies[position];
 }
 
 int Targaryen::getBoats() {

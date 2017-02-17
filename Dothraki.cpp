@@ -10,27 +10,27 @@ Dothraki::Dothraki() {
 
 // Setters.
 
-Dothraki::setName(string name) {
+void Dothraki::setName(string name) {
 	this -> name = name;
 }
 
-Dothraki::setChief(string chief) {
+void Dothraki::setChief(string chief) {
    this -> chief = chief;
 }
 
-Dothraki::setHorse(string horse) {
+void Dothraki::setHorse(string horse) {
    this -> horse = horse;
 }
 
-Dothraki::setColor(string color) {
+void Dothraki::setColor(string color) {
    this -> color = color;
 }
 
-Dothraki::setAttack(int attack) {
+void Dothraki::setAttack(int attack) {
    this -> attack = attack;
 }
 
-Dothraki::setDefense(int defense) {
+void Dothraki::setDefense(int defense) {
    this -> defense = defense;
 }
 

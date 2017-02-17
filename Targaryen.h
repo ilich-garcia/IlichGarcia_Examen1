@@ -34,7 +34,7 @@ class Targaryen {
       string getEmblem();
       string getMotto();
       int getDragons();
-      Dothraki* getDothrakies();
+      Dothraki* getDothrakies(int position);
       int getBoats();
 		~Targaryen(); // Destructor.
 };

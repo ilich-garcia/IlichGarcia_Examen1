@@ -1,6 +1,7 @@
 // Lannister.cpp
 
 #include "Lannister.h"
+#include "RoyalGuard.h"
 
 Lannister::Lannister() {
 	std::cout << "Objeto Lannister creado!" << std::endl;
@@ -21,7 +22,7 @@ void Lannister::setMotto(string motto) {
 }
 
 void Lannister::setRoyalGuard(RoyalGuard* royalguard) {
-   this -> royalguards.push_back(royalguard);
+   royalGuards.push_back(royalguard);
 }
 
 void Lannister::setForce(int force) {
@@ -47,7 +48,7 @@ string Lannister::getMotto() {
 }
 
 RoyalGuard* Lannister::getRoyalGuard(int position) {
-   return royalguards[position];
+   return royalGuards[position];
 }
 
 int Lannister::getForce() {

@@ -1,6 +1,6 @@
-IlichGarcia_Examen1: Stark.o Lannister.o Targaryen.o NobleFamily.o Dothraki.o RoyalGuard.o -lncurses -o IlichGarcia_Examen1
+IlichGarcia_Examen1: IlichGarcia_Examen1.o Stark.o Lannister.o Targaryen.o NobleFamily.o Dothraki.o RoyalGuard.o
 
-	g++ Stark.o Lannister.o Targaryen.o NobleFamily.o Dothraki.o RoyalGuard.o
+	g++ IlichGarcia_Examen1.o Stark.o Lannister.o Targaryen.o NobleFamily.o Dothraki.o RoyalGuard.o -o IlichGarcia_Examen1
 
 IlichGarcia_Examen1.o:	IlichGarcia_Examen1.cpp Stark.h Lannister.h Targaryen.h NobleFamily.h Dothraki.h RoyalGuard.h
 	g++ -c IlichGarcia_Examen1.cpp

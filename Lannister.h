@@ -35,7 +35,7 @@ class Lannister {
       string getFamilyBoss();
       string getEmblem();
       string getMotto();
-      RoyalGuard* getRoyalGuard();
+      RoyalGuard* getRoyalGuard(int);
       double getMoney();
       int getForce();
       int getQuantity();
