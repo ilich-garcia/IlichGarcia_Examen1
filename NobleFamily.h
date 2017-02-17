@@ -11,7 +11,7 @@ class NobleFamily {
 		string name;
 		string symbol;
 		string motto;
-		string people;
+		int people;
 		int attack;
 		int defense;
 
@@ -21,14 +21,14 @@ class NobleFamily {
 		setName(string);
 		setSymbol(string);
 		setMotto(string);
-		setPeople(string);
+		setPeople(int);
 		setAttack(int);
 		setDefense(int);
 		// Getters.
       string setName();
       string setSymbol();
       string setMotto();
-      string setPeople();
+      int setPeople();
       int setAttack();
       int setDefense();
 		~NobleFamily(); // Destructor.
