@@ -15,16 +15,20 @@ class RoyalGuard {
 		int defense;
 
 	public:
+		RoyalGuard(); // Constructor.
+		// Setters.
       setName(string);
       setAge(int);
       setSoldier(string);
       setAttack(int);
       setDefense(int);
+		// Getters.
       string getName();
       int getAge();
       string getSoldier();
       int getAttack();
       int getDefense();
+		~RoyalGuard(); // Destructor.
 };
 
 # endif

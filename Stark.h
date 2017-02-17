@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
+#include "NobleFamily.h"
+
 using namespace std;
 
 # ifndef STARK_H

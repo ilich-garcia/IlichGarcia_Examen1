@@ -6,6 +6,8 @@
 # ifndef NOBLEFAMILY_H
 # define NOBLEFAMILY_H
 
+using namespace std;
+
 class NobleFamily {
 	private:
 		string name;
@@ -25,12 +27,12 @@ class NobleFamily {
 		setAttack(int);
 		setDefense(int);
 		// Getters.
-      string setName();
-      string setSymbol();
-      string setMotto();
-      int setPeople();
-      int setAttack();
-      int setDefense();
+      string getName();
+      string getSymbol();
+      string getMotto();
+      int getPeople();
+      int getAttack();
+      int getDefense();
 		~NobleFamily(); // Destructor.
 };
 
