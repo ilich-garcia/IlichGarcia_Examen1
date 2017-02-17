@@ -13,9 +13,19 @@ int main() {
 	int option;
 
 	do {
-		cout << "1) Agregar. \n2) Listar. \n3) Modificar. \n4) Eliminar. \n5) Simulación. \n6) Salir.";
+		cout << "1) Agregar. \n2) Listar. \n3) Eliminar. \n4) Simulación. \n5) Salir. \nOpción: ";
 		cin >> option;
-	} while (option != 6);
+
+		if (option == 1) {
+			
+		} else if (option == 2) {
+			
+		} else if (option == 3) {
+			
+		} else if (option == 4) {
+			
+		}
+	} while (option != 5);
 
 	return 0;
 }
