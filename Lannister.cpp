@@ -25,6 +25,10 @@ void Lannister::setRoyalGuard(RoyalGuard* royalguard) {
    royalGuards.push_back(royalguard);
 }
 
+void Lannister::setMoney(double money) {
+   this -> money = money;
+}
+
 void Lannister::setForce(int force) {
    this -> force = force;
 }
