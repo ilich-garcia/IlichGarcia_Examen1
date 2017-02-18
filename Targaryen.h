@@ -27,14 +27,14 @@ class Targaryen {
 		void setEmblem(string);
 		void setMotto(string);
 		void setDragons(int);
-		void setDothrakies(Dothraki*);
+		void setDothrakie(Dothraki*);
 		void setBoats(int);
 		// Getters.
       string getQueen();
       string getEmblem();
       string getMotto();
       int getDragons();
-      Dothraki* getDothrakies(int position);
+      Dothraki* getDothrakie(int position);
       int getBoats();
 		~Targaryen(); // Destructor.
 };

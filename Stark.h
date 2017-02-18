@@ -1,4 +1,4 @@
-// Stark.
+// Stark.h
 
 #include <iostream>
 #include <string>

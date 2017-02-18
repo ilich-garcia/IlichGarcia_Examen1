@@ -17,6 +17,11 @@ int main() {
 		cout << "1) Agregar. \n2) Listar. \n3) Eliminar. \n4) Simulación. \n5) Salir. \nOpción: ";
 		cin >> option;
 
+      Stark* stark = new Stark(); // Creando Stark.
+      Lannister* lannister = new Lannister();
+      Targaryen* targaryen = new Targaryen();
+
+
 		if (option == 1) {
 			do {
 				cout << "1) Stark. \n2) Lannister. \n3) Targaryen. \n4) Salir. \nOpción: ";
@@ -38,8 +43,6 @@ int main() {
                cin >> bestWarrior;
                cout << "Cantidad de integrantes: ";
                cin >> quantity;
-
-					Stark* stark = new Stark(); // Creando Stark.
 
 					stark -> setFamilyBoss(familyBoss);
                stark -> setWolfs(wolfs);
@@ -99,8 +102,6 @@ int main() {
 					cout << "Cantidad de integrantes: ";
 					cin >> quantity;
 
-               Lannister* lannister = new Lannister();
-
                lannister -> setFamilyBoss(familyBoss);
                lannister -> setEmblem(emblem);
                lannister -> setMotto(motto);
@@ -152,8 +153,6 @@ int main() {
                cout << "Cantidad de barcos: ";
                cin >> boats;
 
-               Targaryen* targaryen = new Targaryen();
-
                targaryen -> setQueen(queen);
                targaryen -> setEmblem(emblem);
                targaryen -> setMotto(motto);
@@ -189,14 +188,16 @@ int main() {
                      dothraki -> setAttack(attack);
                      dothraki -> setDefense(defense);
 
-                     targaryen -> setDefense(royalGuard);
-            }
+		               targaryen -> setDothrakie(dothraki);
+						}
+					} while (keep != 2);
+				}
 			} while (newOption != 4);
-		} else if (option == 2) {
+		} else if (option == 2) { // Listar.
+			cout << "En proceso de construcción! xD" << endl;
+		} else if (option == 3) { // Eliminar.
 			
-		} else if (option == 3) {
-			
-		} else if (option == 4) {
+		} else if (option == 4) { // Simular.
 			
 		}
 	} while (option != 5);

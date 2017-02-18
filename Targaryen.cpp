@@ -26,7 +26,7 @@ void Targaryen::setDragons(int dragons) {
    this -> dragons = dragons;
 }
 
-void Targaryen::setDothrakies(Dothraki* dothraki) {
+void Targaryen::setDothrakie(Dothraki* dothraki) {
    this -> queen = queen;
 }
 
@@ -52,7 +52,7 @@ int Targaryen::getDragons() {
    return dragons;
 }
 
-Dothraki* Targaryen::getDothrakies(int position) {
+Dothraki* Targaryen::getDothrakie(int position) {
    return dothrakies[position];
 }
 
